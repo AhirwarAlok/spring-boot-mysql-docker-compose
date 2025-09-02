@@ -5,7 +5,7 @@ services:
     image: spring-boot-mysql-app
     container_name: spring-container
     ports:
-      - "8080:8080"
+      - "9091:8080"
     networks:
       - docker-mysql
     depends_on:
